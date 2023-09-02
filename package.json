@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Pembelajaran JavaScript di Platform Dicoding",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,15 @@
     "url": "javascript-dicoding"
   },
   "author": "Purnama Ashari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+
 }
